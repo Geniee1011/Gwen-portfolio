@@ -2,15 +2,8 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   FaGithub,
-  FaTwitter,
-  FaLinkedin,
-  FaRedditAlien,
-  FaFacebookMessenger,
-  FaInstagram,
-  FaSnapchatGhost,
   FaWhatsapp,
   FaTimes,
-  FaUserFriends,
   FaUserPlus,
 } from "react-icons/fa";
 
@@ -25,34 +18,16 @@ const FloatSocialIcons = () => {
 
   const socialLinks = [
     {
-      icon: FaTwitter,
-      name: "Twitter",
-      color: "#1DA1F2",
-      url: "",
-    },
-    {
-      icon: FaInstagram,
-      name: "Instagram",
-      color: "#E4405F",
-      url: "",
-    },
-    {
       icon: FaGithub,
       name: "GitHub",
       color: "#181717",
-      url: "https://github.com/SachinPro007",
-    },
-    {
-      icon: FaLinkedin,
-      name: "LinkedIn",
-      color: "#0A66C2",
-      url: "https://www.linkedin.com/in/sachinpro/",
+      url: "https://github.com/Geniee1011",
     },
     {
       icon: FaWhatsapp,
       name: "WhatsApp",
       color: "#25D366",
-      url: "https://wa.me/918307326657",
+      url: "https://wa.me/639971700565",
     },
   ];
 

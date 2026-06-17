@@ -1,38 +1,34 @@
 [
   {
     "question": "What technologies do you specialize in?",
-    "answer": "I specialize in the modern Next.js ecosystem, combining full-stack development with DevOps principles. My core stack includes TypeScript, Next.js (App Router), and Docker for containerization. I build robust backends using both the MERN stack and serverless solutions like Convex, ensuring end-to-end type safety."
+    "answer": "I'm a full-stack developer specializing in React, Next.js, and TypeScript on the frontend, with Node.js services and PostgreSQL/Supabase on the backend. I've also worked extensively with MongoDB, MySQL, GraphQL, and Laravel, and I'm comfortable shipping to the cloud with Docker, Kubernetes, AWS, and GCP."
   },
   {
-    "question": "What kind of projects have you built?",
-    "answer": "I build production-ready systems, not just hobby projects. My flagship app, 'Ezensi' (Live), is an AI-Native Blog Platform containerized with Docker and deployed via CI/CD on Render. I've also architected 'ShopEase,' a high-performance eCommerce app with advanced caching, and a secure Next.js full-stack system with custom auth."
+    "question": "What kind of work have you done professionally?",
+    "answer": "I build and maintain high-traffic production web platforms on real teams. At WEVO Conversion I worked on a customer-facing platform with React, Next.js, and TypeScript, optimized Node.js APIs and PostgreSQL queries, and led the CI/CD setup. Before that I delivered responsive frontends and WordPress projects at Xentra Solutions and built reusable components and backend modules at Intelliquick."
   },
   {
-    "question": "Do you have experience with DevOps and Deployment?",
-    "answer": "Yes. I move beyond basic deployments by using Docker to containerize applications, ensuring consistent environments from development to production. I implement Multi-Stage builds to optimize image sizes (reducing my latest app to ~276MB) and set up automated CI/CD pipelines on platforms like Render."
+    "question": "Do you have experience with DevOps and deployment?",
+    "answer": "Yes. I led CI/CD implementation using GitHub Actions and containerized pipelines, cutting deployment time to under 15 minutes and enabling daily releases with automated rollback. I'm comfortable containerizing apps with Docker, orchestrating with Kubernetes, and deploying across AWS and Google Cloud."
   },
   {
     "question": "How do you ensure code quality and stability?",
-    "answer": "I enforce quality through both tools and process. I use Husky and ESLint for strict pre-commit checks and Zod for runtime data validation. On the process side, I track bugs and features using Jira, ensuring nothing slips through the cracks before deployment."
+    "answer": "I rely on a mix of tooling and process. I write unit and integration tests with Jest and Cypress, and I establish code-review standards across the team. At WEVO this approach helped reduce production bugs by around 30%, and mentoring 3-4 junior developers kept quality consistent as the codebase grew."
   },
   {
-    "question": "Do you have full-stack development experience?",
-    "answer": "Yes, I am comfortable across the entire stack. I build scalable backends using Node.js/Express (MERN) and Serverless (Convex). My expertise includes designing database schemas (MongoDB/MySQL), handling complex state with Redux/TanStack Query, and securing APIs with Clerk or custom JWT implementation."
+    "question": "How do you approach performance optimization?",
+    "answer": "Performance is a priority in everything I ship. I use server-side rendering and code-splitting to improve load times and reduce bundle size, and I tune backend queries with caching and indexing. On one platform this cut average API response time by 40% and increased throughput by 35%."
   },
   {
-    "question": "Are your projects mobile responsive?",
-    "answer": "Absolutely. I follow a mobile-first approach using Tailwind CSS and Shadcn UI. I rigorously test across devices to ensure seamless UX, maintaining 90+ Lighthouse performance scores even on mobile networks."
+    "question": "Do you care about accessibility and SEO?",
+    "answer": "Definitely. I migrate legacy pages to modern stacks while applying accessibility and SEO best practices, which on past projects contributed to an ~18% increase in organic traffic. I focus on accessible, consistent UI and responsive, mobile-first experiences."
   },
   {
-    "question": "How do you optimize application performance?",
-    "answer": "Performance is a priority. I use TanStack Query for aggressive caching and Next.js Server Actions to minimize client-side JavaScript. I also optimize Docker images for faster cold starts and implement debouncing and code-splitting to keep the application lightweight."
-  },
-  {
-    "question": "What is your approach to security?",
-    "answer": "I believe in security by design. I implement HTTP-only cookies for session management, use Bcrypt for password hashing, and protect API routes with Middleware. I also ensure strict environment variable isolation to keep production secrets safe."
+    "question": "What is your experience working on a team?",
+    "answer": "I collaborate closely with product and design to ship features that move the numbers — I've delivered 8+ major features that drove a 22% increase in user engagement. I mentor junior developers and interns, maintain documentation, and conduct code reviews to keep the whole team moving fast and confidently."
   },
   {
     "question": "What is your development workflow?",
-    "answer": "I simulate a professional Agile environment. I manage my projects using Jira, breaking down features into Epics and User Stories. I work in sprints, manage code via GitHub with clear commit messages, and use CI/CD pipelines to automate testing and deployment."
+    "answer": "I work in an Agile environment, tracking features and bugs in Jira and managing code through GitHub and GitLab with clear, reviewable commits. CI/CD pipelines automate testing and deployment, so releases stay frequent, predictable, and easy to roll back."
   }
 ]

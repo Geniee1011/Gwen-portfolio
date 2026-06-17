@@ -7,6 +7,7 @@ function ScrollingImages() {
   const { themeColors, theme } = useSelector((state) => state.themeReducer);
   const [isHovered, setIsHovered] = useState(false);
   const [hoveredIcon, setHoveredIcon] = useState(null);
+  const [logoError, setLogoError] = useState(false);
   const windowSize = useWindowSize();
 
   // Calculate responsive dimensions
@@ -188,9 +189,9 @@ function ScrollingImages() {
                     className="font-bold"
                     style={{ color: themeColors.primaryColor }}
                   >
-                    Sachin
+                    Gwen
                   </span>{" "}
-                  — a Frontend Developer.
+                  — a Full Stack Developer.
                 </p>
                 <p
                   className="text-sm text-muted leading-relaxed"
@@ -203,18 +204,37 @@ function ScrollingImages() {
             </div>
           )}
 
-          {/* image wraper */}
-          <div className="w-full h-full relative">
-            <img
-              alt="Sachin - Frontend Developer"
-              src={slide.image}
-              className="absolute top-[58%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              style={{
-                height: `${containerSize * 1.1}px`,
-                width: "auto",
-                maxWidth: "none",
-              }}
-            />
+          {/* Center logo (with monogram fallback) */}
+          <div
+            className="w-full h-full relative flex items-center justify-center"
+            style={{
+              background: `radial-gradient(circle at 50% 35%, ${themeColors.primaryColor}26, ${themeColors.bg} 70%)`,
+            }}
+          >
+            {!logoError ? (
+              <img
+                src="/icons/center-image.png"
+                alt="Gwen Lavarias - Full Stack Developer"
+                onError={() => setLogoError(true)}
+                className="object-contain"
+                style={{
+                  width: `${containerSize * 0.42}px`,
+                  height: `${containerSize * 0.42}px`,
+                }}
+              />
+            ) : (
+              <span
+                className="font-bold leading-none select-none whitespace-nowrap"
+                style={{
+                  fontSize: `${containerSize * 0.16}px`,
+                  color: themeColors.text,
+                }}
+              >
+                <span style={{ color: themeColors.primaryColor }}>{"{ "}</span>
+                Gwen
+                <span style={{ color: themeColors.primaryColor }}>{" }"}</span>
+              </span>
+            )}
           </div>
         </div>
 

@@ -59,19 +59,19 @@ const ContactSection = () => {
               {
                 icon: "Mail",
                 title: "Email",
-                value: "mrsachinsehrawat07@gmail.com",
-                href: "mailto:mrsachinsehrawat07@gmail.com",
+                value: "gwen.lavarias@outlook.com",
+                href: "mailto:gwen.lavarias@outlook.com",
               },
               {
                 icon: "Phone",
                 title: "Phone",
-                value: "+91-8307326657",
-                href: "tel:+918307326657",
+                value: "+63 997 170 0565",
+                href: "tel:+639971700565",
               },
               {
                 icon: "MapPin",
                 title: "Location",
-                value: "Sector 128, Noida, Uttar Pradesh",
+                value: "Santa Rosa, Laguna, Philippines",
               },
             ].map((item, i) => (
               <motion.div
@@ -157,7 +157,8 @@ const ContactSection = () => {
             >
               <div className="absolute inset-0 flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.568392793973!2d77.35048037479706!3d28.5226305757249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce79e37f37571%3A0x6660ea69a78adc0f!2sPavilion%20Court%20Tower%205%20%26%206!5e0!3m2!1sen!2sin!4v1759723361732!5m2!1sen!2sin"
+                  title="Santa Rosa, Laguna, Philippines"
+                  src="https://www.google.com/maps?q=Santa+Rosa,+Laguna,+Philippines&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

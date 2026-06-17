@@ -31,16 +31,16 @@ function LeftContent() {
           style={{ color: themeColors.text }}
         >
           Hey! I'm{" "}
-          <span style={{ color: themeColors.primaryColor }}>Sachin</span>, a{" "}
+          <span style={{ color: themeColors.primaryColor }}>Gwen</span>, a{" "}
           <span>
             <Typewriter
               options={{
-                strings: ["Frontend", "MERN Stack"],
+                strings: ["Web Developer", "Full Stack Developer", "Software Engineer"],
                 autoStart: true,
                 loop: true,
               }}
             />
-          </span>Developer.
+          </span>
         </h1>
       </div>
 

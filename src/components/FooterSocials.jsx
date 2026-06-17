@@ -1,30 +1,30 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiMail } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 const FooterSocial = () => {
   const { themeColors } = useSelector((state) => state.themeReducer);
   const socials = [
     {
-      id: "whatsapp",
-      icon: FaWhatsapp,
-      label: "8307326657",
-      url: "https://wa.me/918307326657",
-      color: "#128C7E",
+      id: "email",
+      icon: FiMail,
+      label: "Email",
+      url: "mailto:gwen.lavarias@outlook.com",
+      color: "#EA4335",
     },
     {
-      id: "linkedin",
-      icon: FiLinkedin,
-      label: "in/sachinpro",
-      url: "https://www.linkedin.com/in/sachinpro/",
-      color: "#0e76a8",
+      id: "whatsapp",
+      icon: FaWhatsapp,
+      label: "+63 997 170 0565",
+      url: "https://wa.me/639971700565",
+      color: "#128C7E",
     },
     {
       id: "github",
       icon: FiGithub,
-      label: "SachinPro007",
-      url: "https://github.com/SachinPro007",
+      label: "Geniee1011",
+      url: "https://github.com/Geniee1011",
       color: themeColors.text,
     },
   ];
@@ -32,7 +32,9 @@ const FooterSocial = () => {
   return (
     <div className="flex items-center justify-center flex-wrap gap-3">
       {/* eslint-disable-next-line */}
-      {socials.map(({ id, icon: Icon, label, url, color }) => (
+      {socials
+        .filter(({ url }) => url)
+        .map(({ id, icon: Icon, label, url, color }) => (
         <a
           key={id}
           href={url}

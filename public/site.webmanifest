@@ -1,22 +1,18 @@
 {
-  "name": "Sachin Sehrawat | Next.js & TypeScript Developer",
-  "short_name": "Sachin",
+  "name": "Gwen Lavarias | Full Stack Developer",
+  "short_name": "Gwen",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#121212", 
-  "theme_color": "#F28C26", 
-  "description": "Portfolio of Sachin Sehrawat — a Next.js/TypeScript Developer building high-performance, type-safe, and secure web applications, specialized in Tailwind CSS and modern full-stack architectures.",
+  "background_color": "#121212",
+  "theme_color": "#F28C26",
+  "description": "Portfolio of Gwen Lavarias — a Full Stack Developer building high-performance web applications and scalable backend services with React, Next.js, Node.js, TypeScript, and PostgreSQL.",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ]
 }

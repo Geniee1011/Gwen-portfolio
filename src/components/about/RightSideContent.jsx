@@ -48,45 +48,39 @@ function RightSideContent() {
               style={{ color: themeColors.summeryText }}
             >
               <li>
-                <Highlight>Next.js, React, TypeScript</Highlight>: Architecting
-                type-safe, scalable frontend applications. I leverage Next.js
-                Server Actions and SSR for maximum performance and SEO.
+                <Highlight>React, Next.js, TypeScript</Highlight>: Building
+                type-safe, scalable frontends. I leverage SSR and code-splitting
+                to improve load performance, reduce bundle size, and boost SEO.
               </li>
 
               <li>
-                <Highlight>MERN Stack, MongoDB, Node.js, Convex</Highlight>:
-                Building robust backend architectures. I specialize in both
-                traditional REST APIs (Express/Mongo) and modern serverless
-                backends for flexible full-stack solutions.
+                <Highlight>Node.js, PostgreSQL, Supabase, MongoDB</Highlight>:
+                Designing robust backend services and APIs. I tune queries and
+                add caching to cut response times and scale throughput.
               </li>
 
               <li>
-                <Highlight>Docker, CI/CD, Render</Highlight>:{" "}
-                <span className="font-semibold text-green-500">(New)</span>{" "}
+                <Highlight>CI/CD, GitHub Actions, Docker</Highlight>:
                 Transforming code into production-ready containers. I build
-                multi-stage Docker images and automated deployment pipelines for
-                consistent delivery.
+                automated pipelines with rollback for fast, consistent releases.
               </li>
 
               <li>
-                <Highlight>TanStack Query, Redux Toolkit, Zod</Highlight>:
-                Managing complex server state and enforcing strict data
-                validation. I ensure robust data flow with optimized caching and
-                type integrity.
+                <Highlight>Redux, Jest, Cypress</Highlight>: Managing complex
+                application state and enforcing quality with unit and
+                integration test suites and shared code-review standards.
               </li>
 
               <li>
-                <Highlight>Tailwind CSS, Shadcn UI, Framer Motion</Highlight>:
-                Expertly crafting clean, animated, and accessible UIs. I
-                guarantee pixel-perfect fidelity from complex Figma mockups.
+                <Highlight>Tailwind CSS, Material UI, Framer Motion</Highlight>:
+                Crafting clean, animated, and accessible UIs with pixel-perfect
+                fidelity from design mockups.
               </li>
 
               <li>
-                <Highlight>Jira, Agile, Husky, ESLint</Highlight>:{" "}
-                <span className="font-semibold text-green-500">(New)</span>{" "}
-                Integrating professional workflows. I manage development
-                lifecycles with Agile/Scrum methodologies while enforcing strict
-                code quality standards via automated pre-commit checks.
+                <Highlight>Jira, Agile, GCP, AWS</Highlight>: Driving delivery
+                with Agile/Scrum and shipping to the cloud, mentoring developers
+                and improving accessibility and UI consistency along the way.
               </li>
             </p>
           </div>
@@ -132,7 +126,7 @@ function RightSideContent() {
             Upcoming Learning Goals
           </h4>
           <div className="flex flex-wrap gap-2">
-            {["Frontend Specialization", "Modern Web Development"].map(
+            {["Go", "Kubernetes", "GraphQL", "Cloud Architecture"].map(
               (item, i) => (
                 <span
                   key={i}

@@ -1,70 +1,90 @@
 {
   "id": "coding-bundle",
-  "subtitle": "I build high-performance, type-safe applications with Next.js and TypeScript. I turn complex data flow challenges into seamless user experiences, delivering 90+ Lighthouse scores and production-ready, stable code.",
-  "badge": "Frontend / MERN Stack </>",
+  "subtitle": "I'm a results-driven Full Stack Developer building high-performance web applications and scalable backend services with React, Next.js, Node.js, TypeScript, and PostgreSQL. I optimize system performance, automate CI/CD, and ship features that drive user engagement and business outcomes.",
+  "badge": "Full Stack Developer </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
   "image": "/Sachin-front-end-developer.webp",
   "experience": [
     {
-      "title": "Collaborating with Backend Developer on Full Stack Freelance Projects",
-      "location": "Frontend Developer",
-      "duration": "Jul 2025 - Present",
+      "title": "WEVO Conversion",
+      "location": "Software Engineer · Boston",
+      "duration": "Jan 2024 - Apr 2026",
       "description": [
-        "Delivered multiple production-grade full-stack projects, achieving a 20% reduction in page load times by implementing Next.js optimization techniques, fully type-safe UIs using TypeScript and TanStack Query. ",
-        "Partnered with backend developer to integrate complex RESTful APIs, utilizing Jira for Agile task tracking and Husky/ESLint to maintain code consistency."
+        "Developed and maintained a high-traffic customer web platform using React, Next.js and TypeScript, implementing SSR and code-splitting to improve load performance and reduce bundle size.",
+        "Built and optimized Node.js APIs and Postgres/Supabase queries with caching and query tuning, cutting average API response time by 40% and increasing throughput by 35%.",
+        "Led CI/CD implementation with GitHub Actions and containerized pipelines, reducing deployment time to under 15 minutes with automated rollback.",
+        "Established test suites and code-review standards and mentored 3-4 junior developers, helping reduce production bugs by ~30%.",
+        "Delivered 8+ major features through close collaboration with product and design, driving a 22% increase in user engagement."
       ],
       "icon": "💻"
+    },
+    {
+      "title": "Xentra Solutions",
+      "location": "Web Developer · Pasig City",
+      "duration": "Feb 2022 - Jan 2024",
+      "description": [
+        "Built responsive front-end experiences using React and modern JavaScript and delivered WordPress projects, improving page load performance by ~25% and enhancing mobile UX.",
+        "Integrated RESTful APIs and third-party services with client-side caching and efficient Supabase queries to speed up data retrieval and reduce server load.",
+        "Migrated legacy pages to a modern stack with accessibility and SEO best practices, contributing to an ~18% increase in organic traffic.",
+        "Shipped 10+ features with designers and PMs, maintained documentation, conducted code reviews, and mentored juniors and interns."
+      ],
+      "icon": "🧩"
+    },
+    {
+      "title": "Intelliquick",
+      "location": "Frontend Developer · Bacoor",
+      "duration": "Jul 2020 - Dec 2021",
+      "description": [
+        "Converted UI/UX mockups into React screens and reusable components with Bootstrap and Tailwind CSS.",
+        "Built simple frontend and backend features with React and Node.js and migrated a backend from MySQL to MongoDB to improve scalability.",
+        "Created reusable frontend components and backend modules for internal enterprise tools and worked with cloud-hosted databases for reliability.",
+        "Participated in troubleshooting, bug fixing, and enhancement delivery for production systems across cross-functional teams."
+      ],
+      "icon": "🚀"
     }
   ],
   "education": [
     {
-      "location": "Dedicated full-time effort to mastering modern technologies with professional coding standards.",
-      "duration": "2024 - Present",
-      "title": "Frontend Specialization & Modern Web Development ",
-      "icon": "💻"
-    },
-    {
-      "location": "Bachelor of Computer Applications (BCA)",
-      "duration": "2021 - 2024",
-      "title": "Amity University, Noida",
+      "title": "University of the Visayas",
+      "location": "Bachelor of Science in Computer Science · Cebu City",
+      "duration": "2016 - 2020",
+      "description": [
+        "Graduated with High Honors",
+        "Dean's Lister",
+        "Outstanding Capstone Project Award"
+      ],
       "icon": "🎓"
-    },
-    {
-      "location": "Higher Secondary Certificate",
-      "duration": "End in 2021",
-      "title": "H.S Public School",
-      "icon": "🏫"
     }
   ],
   "techIcons": [
     {
-      "name": "Redux",
-      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      "name": "Node.js",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "size": "large",
       "angle": 0,
-      "tooltipColor": "#764ABC"
+      "tooltipColor": "#339933"
     },
     {
       "name": "Docker",
-      "src": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       "size": "large",
       "angle": 51,
       "tooltipColor": "#2496ED"
     },
     {
-      "name": "Axios",
-      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/axios/axios-plain.svg",
+      "name": "PostgreSQL",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       "size": "large",
       "angle": 102,
-      "tooltipColor": "#5A29E4"
+      "tooltipColor": "#4169E1"
     },
     {
-      "name": "TanStack Query",
-      "src": "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
+      "name": "MongoDB",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       "size": "large",
       "angle": 153,
-      "tooltipColor": "#FF4154"
+      "tooltipColor": "#47A248"
     },
     {
       "name": "Material UI",
@@ -74,15 +94,15 @@
       "tooltipColor": "#0081CB"
     },
     {
-      "name": "AI",
-      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/illustrator/illustrator-plain.svg",
+      "name": "Redux",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       "size": "large",
       "angle": 255,
-      "tooltipColor": "#FF9A00"
+      "tooltipColor": "#764ABC"
     },
     {
       "name": "Next.js",
-      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       "size": "large",
       "angle": 306,
       "tooltipColor": "#000000"

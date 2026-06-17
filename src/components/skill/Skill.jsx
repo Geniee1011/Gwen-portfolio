@@ -9,19 +9,19 @@ const SkillsSection = () => {
 
   const techCategories = {
     frontend: {
-      title: "FrontEnd Architecture & UI",
+      title: "Frontend & UI",
       description:
-        "Technologies for building type-safe, responsive, and high-performance user interfaces.",
+        "Technologies for building responsive, accessible, and high-performance user interfaces.",
       icons: [
-        {
-          name: "Next.js",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-          tooltipColor: "#000000",
-        },
         {
           name: "React.js",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
           tooltipColor: "#61DAFB",
+        },
+        {
+          name: "Next.js",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+          tooltipColor: "#000000",
         },
         {
           name: "TypeScript",
@@ -29,14 +29,24 @@ const SkillsSection = () => {
           tooltipColor: "#3178C6",
         },
         {
-          name: "Tailwind CSS",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
-          tooltipColor: "#38B2AC",
+          name: "JavaScript",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          tooltipColor: "#F7DF1E",
         },
         {
-          name: "SASS/SCSS",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-          tooltipColor: "#CC6699",
+          name: "HTML5",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          tooltipColor: "#E34F26",
+        },
+        {
+          name: "CSS3",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          tooltipColor: "#1572B6",
+        },
+        {
+          name: "Tailwind CSS",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+          tooltipColor: "#38B2AC",
         },
         {
           name: "Material UI",
@@ -44,73 +54,78 @@ const SkillsSection = () => {
           tooltipColor: "#0081CB",
         },
         {
-          name: "Shadcn/ui",
-          src: "https://avatars.githubusercontent.com/u/139895814?s=48&v=4",
-          tooltipColor: "#000000",
-        },
-        {
-          name: "Framer Motion",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/framermotion/framermotion-original.svg",
-          tooltipColor: "#FF0099",
-        },
-        {
-          name: "Redux/RTK",
+          name: "Redux",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
           tooltipColor: "#764ABC",
         },
         {
-          name: "Axios",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
-          tooltipColor: "#5A29E4",
+          name: "WordPress",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+          tooltipColor: "#21759B",
         },
       ],
     },
     backend: {
-      title: "MERN Stack & Security",
+      title: "Backend & Data",
       description:
-        "Server-side and security technologies for full-stack capability.",
+        "Server-side services, APIs, and databases for full-stack capability.",
       icons: [
-        {
-          name: "MongoDB",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-          tooltipColor: "#47A248",
-        },
-        {
-          name: "Express.js",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-          tooltipColor: "#000000",
-        },
         {
           name: "Node.js",
           src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
           tooltipColor: "#339933",
         },
         {
-          name: "Auth.js",
-          src: "https://authjs.dev/img/etc/logo-sm.webp",
-          tooltipColor: "#000000",
+          name: "PostgreSQL",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+          tooltipColor: "#4169E1",
         },
         {
-          name: "Zod",
-          src: "https://raw.githubusercontent.com/colinhacks/zod/HEAD/logo.svg",
-          tooltipColor: "#3E67A6",
+          name: "MySQL",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+          tooltipColor: "#4479A1",
         },
         {
-          name: "Bcrypt",
-          src: "",
-          tooltipColor: "#000000",
+          name: "MongoDB",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+          tooltipColor: "#47A248",
         },
         {
-          name: "JWT",
-          src: "https://jwt.io/img/pic_logo.svg",
-          tooltipColor: "#000000",
+          name: "Supabase",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+          tooltipColor: "#3ECF8E",
+        },
+        {
+          name: "Firebase",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+          tooltipColor: "#FFCA28",
+        },
+        {
+          name: "GraphQL",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+          tooltipColor: "#E10098",
+        },
+        {
+          name: "Laravel",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+          tooltipColor: "#FF2D20",
+        },
+        {
+          name: "Python",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          tooltipColor: "#3776AB",
+        },
+        {
+          name: "Go",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+          tooltipColor: "#00ADD8",
         },
       ],
     },
     other: {
-      title: "Tools & Professional Workflow",
+      title: "Tools, Cloud & Testing",
       description:
-        "Complementary tools and platforms for code quality and collaboration.",
+        "Platforms and tooling for deployment, collaboration, and code quality.",
       icons: [
         {
           name: "Git",
@@ -123,39 +138,34 @@ const SkillsSection = () => {
           tooltipColor: "#181717",
         },
         {
-          name: "Jira",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
-          tooltipColor: "#0052CC",
+          name: "GitLab",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+          tooltipColor: "#FC6D26",
         },
         {
           name: "Docker",
-          src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
           tooltipColor: "#2496ED",
         },
         {
-          name: "ESLint",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
-          tooltipColor: "#4B32C3",
+          name: "Kubernetes",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+          tooltipColor: "#326CE5",
         },
         {
-          name: "Prettier",
-          src: "https://prettier.io/icon.png",
-          tooltipColor: "#F7B93E",
+          name: "AWS",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+          tooltipColor: "#FF9900",
         },
         {
-          name: "Husky",
-          src: "",
-          tooltipColor: "#000000",
+          name: "Google Cloud",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+          tooltipColor: "#4285F4",
         },
         {
-          name: "TanStack Query",
-          src: "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
-          tooltipColor: "#FF4154",
-        },
-        {
-          name: "Figma",
-          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          tooltipColor: "#F24E1E",
+          name: "Jira",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+          tooltipColor: "#0052CC",
         },
         {
           name: "Postman",
@@ -163,15 +173,20 @@ const SkillsSection = () => {
           tooltipColor: "#FF6C37",
         },
         {
-          name: "Lint-Staged",
-          src: "https://avatars.githubusercontent.com/u/142687600?s=48&v=4",
-          tooltipColor: "#000000",
+          name: "Jest",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+          tooltipColor: "#C21325",
         },
         {
-          name: "AI Tools",
-          src: "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/illustrator/illustrator-plain.svg",
-          tooltipColor: "#FF6F00",
-        },        
+          name: "Cypress",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg",
+          tooltipColor: "#17202C",
+        },
+        {
+          name: "Figma",
+          src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+          tooltipColor: "#F24E1E",
+        },
       ],
     },
   };
@@ -201,7 +216,7 @@ const SkillsSection = () => {
         <SectionHeader
           title={"Explore My"}
           highlight={"Skills"}
-          subtitle={"Technologies that power my frontend development toolkit"}
+          subtitle={"Technologies that power my full-stack development toolkit"}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
