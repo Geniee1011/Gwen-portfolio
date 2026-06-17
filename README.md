@@ -1,12 +1,11 @@
 # Modern Portfolio Website
 
-![Portfolio Screenshot](https://sachinpro.vercel.app//og-image.webp) 
+
 
 
 A sleek, interactive portfolio website built with modern web technologies featuring advanced animations and customizable themes.
 
-## 🔗 Live Demo
-[Visit Portfolio](https://sachinpro.vercel.app/)
+
 
 ## 🛠️ Tech Stack
 - **Frontend**: React.js
